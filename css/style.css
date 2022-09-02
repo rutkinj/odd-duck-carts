@@ -1,1 +1,63 @@
 /* TODO: Make it awesome */
+
+body {
+    max-width: 750px;
+    margin: auto;
+    background-color: aquamarine;
+    color: indigo;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h1:only-child {
+    font-size: larger;
+}
+
+header, main {
+    border: 2px solid chocolate;
+    margin: 5px;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-right: 5px;
+}
+
+ol {
+    list-style:lower-roman inside;
+}
+
+ol li {
+    padding-bottom: 3px;
+}
+
+legend {
+    padding: 5px;
+    padding-top: 8px;
+    font-weight: 700;
+}
+
+fieldset {
+    display: flex;
+    justify-content:space-around;
+}
+
+td, th {
+    border: black 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+#itemCount {
+    margin-left: 10px;
+} 
+
+
+
+
